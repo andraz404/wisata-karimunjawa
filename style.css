@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: lightgray;
+    font-family: sans-serif;
+  }
+  
+  .main-container {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .img-header {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  .img-header img {
+    width: 20%;
+  }
+  
+  .menu-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .menu-header a {
+    flex: 1;
+    text-decoration: none;
+    background-color: #00938c;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+  }
+  
+  .menu-header a:hover {
+    background-color: rgb(0, 205, 206);
+    color: white;
+  }
+  
+  .info-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .paket-container {
+    width: 300px;
+    margin: 10px;
+  }
+  
+  .paket-container h4 {
+    color: rgb(139, 128, 128);
+  }
+  
+  .paket-container img {
+    width: 100%;
+  }
+  
+  .video-container {
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    height: auto;
+  }
+  
+  .seacrh-container {
+    margin-bottom: 10px;
+  }
+  
+  .seacrh-container input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .seacrh-container input[type="submit"] {
+    padding: 5px;
+  }
+  
+  .brand-container {
+    width: 70%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    text-align: center;
+  }
+  
+  .brand-container img {
+    width: 70%;
+    filter: drop-shadow(2px 2px 8px #000);
+  }
+  
+  .brand-container h1 {
+    color: white;
+    font-size: 3.5vw;
+    text-shadow: 2px 2px 8px #000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .brand-container h2 {
+    color: white;
+    font-size: 2vw;
+    text-shadow: 2px 2px 8px #000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
